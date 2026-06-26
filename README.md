@@ -23,18 +23,6 @@ If you use this methodology or the provided code in your research, please cite o
 
 > Mrkvička, T., & Radimský, J. (2026). *Exact Comparison of Explanatory Strength of Two Dependent Predictors*. 	arXiv:2606.26949 [stat.ME]. URL: https://arxiv.org/abs/2606.26949
 
-**BibTeX:**
-```bibtex
-@article{mrkvicka2026exact,
-  title={Exact Comparison of Explanatory Strength of Two Dependent Predictors},
-  author={Mrkvi{\v{c}}ka, Tom{\'a}{\v{s}} and Radimsk{\'y}, Jan},
-  year={2026},
-  eprint={2606.26949},
-  archivePrefix={arXiv},
-  primaryClass={stat.ME},
-  url={https://arxiv.org/abs/2606.26949}
-}
-
 ## Installation & Requirements
 
 The function relies on base R for most operations. If you wish to use Distance Covariance, the `energy` package is required. No complex installation is needed—simply source the script in your R environment.
