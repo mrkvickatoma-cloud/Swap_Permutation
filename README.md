@@ -17,17 +17,6 @@ The **Paired Swap Permutation Test** overcomes these limitations by evaluating t
 * **Supported Statistics:** Mutual Information (discrete), Pearson's $r$, Kendall's $\tau$, and Distance Covariance (`dcov`).
 * **Auto-Standardization:** Safely standardizes continuous variables to prevent scale dominance (critical for Distance Covariance).
 
-## Installation & Requirements
-
-The function relies on base R for most operations. If you wish to use Distance Covariance, the `energy` package is required. No complex installation is needed—simply source the script in your R environment.
-
-```R
-# Install 'energy' if using distance covariance
-# install.packages("energy")
-
-# Source the main function
-source("paired_swap_test.R")
-
 ## Citation
 
 If you use this methodology or the provided code in your research, please cite our paper:
@@ -45,3 +34,15 @@ If you use this methodology or the provided code in your research, please cite o
   primaryClass={stat.ME},
   url={https://arxiv.org/abs/2606.26949}
 }
+
+## Installation & Requirements
+
+The function relies on base R for most operations. If you wish to use Distance Covariance, the `energy` package is required. No complex installation is needed—simply source the script in your R environment.
+
+```R
+# Install 'energy' if using distance covariance
+# install.packages("energy")
+
+# Source the main function
+source("paired_swap_test.R")
+
